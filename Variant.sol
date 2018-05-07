@@ -78,7 +78,6 @@ contract Variant is SafeMath {
         return true;
     }
 
-    // disable pay QTUM to this contract
     function () public payable {
         revert();
     }
